@@ -1,0 +1,58 @@
+%heading{  /*placeholder*/
+    font-family: $font-display;  
+    font-weight: 400; 
+}
+
+
+.header__1{
+    @extend %heading;
+    font-size: 4.5rem;
+    color: $color-grey-light-1;
+    line-height: 1;
+
+}
+
+.header__2{
+    @extend %heading;
+    font-size: 2.5rem;
+    font-style: italic;
+    line-height: 1;
+    letter-spacing: 0.1rem;
+    
+
+    &__light{color:$color-grey-light-1;}
+    &__dark{color:$color-grey-light-2;}
+}
+
+.header__3{
+    @extend %heading;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+
+    color: $color-primary;
+}
+
+.header__4{
+    @extend %heading;
+    font-size: 1.9rem;
+
+    &__light{color:$color-grey-light-1;}
+    &__dark{color:$color-grey-light-2;}
+}
+
+.btn{
+    border: none;
+    background-color: $color-primary;
+    border-radius: 0;
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+
+}
+
+.mb-sm{margin-bottom: 2rem;}
+.mb-bg{margin-bottom: 3rem;}
+.mb-hg{margin-bottom: 4rem;}
+
